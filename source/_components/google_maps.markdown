@@ -25,7 +25,7 @@ You first need to create an additional Google account and share your location wi
 
 Since this platform is using an unofficial API with the help of [locationsharinglib](https://github.com/costastf/locationsharinglib), Google seems to block access to your data the first time you've logged in with this platform.
 This issue can be fixed by logging in with your new account and approving your login on the [Device Activity](https://myaccount.google.com/device-activity) page.
-
+Google GSuite account have default sesssion 14 days expiry. You need to redo the cookies every 14 days.
 </div>
 
 To integrate Google Maps Location Sharing in Home Assistant, add the following section to your `configuration.yaml` file:
